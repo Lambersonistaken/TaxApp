@@ -26,7 +26,7 @@ fun kdvHesapla(){
     val tutar = urunFiyatiString.toDouble()
 
     val kdvHesaplanan = tutar * 0.18
-
+    //Nice
     val kdvHesaplananString = kdvHesaplanan.toString()
 
     val kdvDahil = kdvHesaplanan + tutar
